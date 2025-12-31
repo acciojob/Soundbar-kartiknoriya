@@ -7,7 +7,39 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sound Effects App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <button class="btn" onclick="playSound('applause')">Applause</button>
+        <button class="btn" onclick="playSound('boo')">Boo</button>
+        <button class="btn" onclick="playSound('gasp')">Gasp</button>
+        <button class="btn" onclick="playSound('tada')">Tada</button>
+        <button class="btn" onclick="playSound('victory')">Victory</button>
+        <button class="btn" onclick="playSound('wrong')">Wrong</button>
+
+        <button class="stop" onclick="stopAllSounds()">Stop</button>
+    </div>
+
+    <!-- Audio Elements -->
+    <audio id="applause" src="https://www.fesliyanstudios.com/play-mp3/387"></audio>
+    <audio id="boo" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+    <audio id="gasp" src="https://files.catbox.moe/vif2j1.mp3"></audio>
+    <audio id="tada" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"></audio>
+    <audio id="victory" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"></audio>
+    <audio id="wrong" src="https://files.catbox.moe/4abc2w.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
